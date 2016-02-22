@@ -54,7 +54,7 @@ p {
 
 .header {
   padding: 15px 15px 35px 15px;
-  background-image:url('http://macmillan.supadu.com/images/working2/p0/45078.png');
+  background-image:url('https://googledrive.com/host/0BzwOBEBWIA-qVVVaalRtQkhZaGM');
   background-size:5px 5px;
 }
 
@@ -77,7 +77,7 @@ p {
   margin-right: -15px;
   padding: 15px 0 20px 0;
   font-size: 1em;
-  background-image:url('http://i.cubeupload.com/iISBFZ.png');
+  background-image:url('https://googledrive.com/host/0BzwOBEBWIA-qM0lrTkNHcGcwUjQ');
   background-position: right center;
   background-repeat: no-repeat;
   background-size: 500px auto;
@@ -152,8 +152,8 @@ button:hover {
 .thumbnail img {
   margin-top: 10px;
   margin-bottom: 30px;
-  margin-left:-3px;
   max-width: 100%;
+  margin-right: -28px;
   height: 320px;
 }
 
@@ -496,13 +496,13 @@ background-blend-mode: screen;
     box-shadow: 2px 0 0 2px #000,
                 5px 0 0 5px #fff,
                 10px 0 0 10px #000;
-    background-image: url(http://us.macmillan.com/images/picador-mid-content-bg.jpg);
+    background-image: url(https://googledrive.com/host/0BzwOBEBWIA-qd1hPMm5xN1RLaWs);
     background-repeat: 6px 6px;
   }
   .foot-tain {
     padding-bottom: 30px;
     margin-bottom: -26px;
-    background-image:url('http://macmillan.supadu.com/images/working2/p0/45078.png');
+    background-image:url('https://googledrive.com/host/0BzwOBEBWIA-qVVVaalRtQkhZaGM');
       background-size:5px 5px;
   }
   .foot-tain h2 {
