@@ -1,0 +1,41 @@
+<div class="thumbnail">
+    <img class="coverborder" ng-src="{{ listing.cover }}">
+    <p class="title">{{ listing.name }}</p>
+    <p class="price">{{ listing.price | currency }}</p>
+    <p class="date">{{ listing.pubdate | date }}</p>
+        <div>
+            <div class="row">
+                <div class="buy">
+                <a ng-href="{{ listing.amazon }}">
+                            <!-- IMG Hosting
+                            <img src="http://macmillan.supadu.com/images/macmillanbuybutton/amazon.png" /> -->
+                    <img class="buybtn" src="img/buybtn-amazon.png" />   
+                
+                </a>
+                </div>
+                <div class="buy">
+                <a ng-href="{{ listing.barnesNoble }}">
+                        <!-- IMG Hosting 
+                        <img src="http://macmillan.supadu.com/images/macmillanbuybutton/BN.png" /> -->
+                    <img class="buybtn" src="img/buybtn-bnoble.png" />
+                </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="buy">
+                    <a ng-href="{{ listing.indieBound }}">
+                            <!-- IMG Hosting
+                            <img src="http://macmillan.supadu.com/images/macmillanbuybutton/IndieBound.png" /> -->
+                        <img class="buybtn" src="img/buybtn-indiebound.png" />
+                </a>
+                </div>
+                <div class="buy">
+                <a ng-href="{{ listing.powells }}">
+                        <!-- IMG Hosting
+                        <img src="http://macmillan.supadu.com/images/macmillanbuybutton/Powells.png" /> -->
+                    <img class="buybtn" src="img/buybtn-powells.png" />
+                </a>
+                </div>
+            </div>
+        </div>
+</div>
